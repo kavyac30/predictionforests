@@ -1,0 +1,202 @@
+States,Temperature,Rain,Humidity,Wind Speed
+Andaman and Nicobar Islands,26,14.2,90,21
+Andhra Pradesh,39,16.2,89,18
+Arunachal Pradesh,34,7,74,19
+Assam,30,1.9,62,5
+Bihar,27,18.8,56,7
+Chandigarh,26,8,65,20
+Chhattisgarh,38,10.4,47,15
+Dadra and Nagar Haveli,30,16.8,68,16
+Daman and Diu,30,13.5,65,14
+Delhi,38,5.6,49,20
+Goa,27,4.2,65,12
+Gujarat,22,10.8,73,10
+Haryana,21,13.9,90,16
+Himachal Pradesh,31,4.6,80,12
+Jammu and Kashmir,25,3.5,46,8
+Jharkhand,21,19.6,43,12
+Karnataka,20,10.3,97,22
+Kerala,31,5.2,92,9
+Lakshadweep,31,19.9,89,13
+Madhya Pradesh,36,19.3,84,8
+Maharashtra,29,11.2,50,21
+Manipur,35,17.7,68,13
+Meghalaya,34,3.8,95,5
+Mizoram,34,5.6,75,24
+Nagaland,38,14,64,17
+Odisha,31,16.9,60,20
+Andaman and Nicobar Islands,39,17.1,96,17
+Andhra Pradesh,22,8.1,75,18
+Arunachal Pradesh,24,17.8,49,7
+Assam,38,17,76,10
+Bihar,26,18.7,48,22
+Chandigarh,28,15.7,63,23
+Chhattisgarh,26,13.4,74,9
+Dadra and Nagar Haveli,37,11.6,88,19
+Daman and Diu,23,7.4,74,6
+Delhi,33,18.8,87,14
+Goa,37,19.5,75,22
+Gujarat,28,5.7,57,17
+Haryana,45,6.1,63,18
+Himachal Pradesh,39,9.7,78,5
+Jammu and Kashmir,34,9,71,5
+Jharkhand,26,19.9,63,22
+Karnataka,31,3.5,62,19
+Kerala,27,0.4,71,21
+Lakshadweep,34,9.9,76,15
+Madhya Pradesh,22,3.6,51,21
+Maharashtra,33,7.3,88,17
+Manipur,36,14.9,94,5
+Meghalaya,23,14.4,52,6
+Mizoram,37,6.2,62,13
+Nagaland,27,10.9,64,7
+Odisha,23,10.2,74,5
+Andaman and Nicobar Islands,47,5.8,64,20
+Andhra Pradesh,25,5,69,10
+Arunachal Pradesh,29,11.8,56,21
+Assam,23,19.6,88,9
+Bihar,37,9.7,59,9
+Chandigarh,31,18.1,87,10
+Chhattisgarh,21,8.7,64,7
+Dadra and Nagar Haveli,29,7,61,9
+Daman and Diu,23,12.9,52,9
+Delhi,33,13.4,98,14
+Goa,35,17.3,58,14
+Gujarat,34,4.6,88,23
+Haryana,27,10,75,21
+Himachal Pradesh,33,11.4,51,18
+Jammu and Kashmir,27,15.4,80,13
+Jharkhand,35,0.9,58,18
+Karnataka,32,19.9,51,5
+Kerala,37,9.4,48,23
+Lakshadweep,34,5.6,46,17
+Madhya Pradesh,32,17.7,67,17
+Maharashtra,28,15,53,8
+Manipur,34,19.1,70,5
+Meghalaya,32,6.6,91,21
+Mizoram,20,11.1,58,12
+Nagaland,26,11.4,97,6
+Odisha,28,19.6,86,12
+Andaman and Nicobar Islands,20,1.5,55,11
+Andhra Pradesh,31,6.1,92,6
+Arunachal Pradesh,27,3.8,44,7
+Assam,30,5.4,74,22
+Bihar,38,9.7,51,16
+Chandigarh,36,7.5,64,5
+Chhattisgarh,27,7.9,91,16
+Dadra and Nagar Haveli,22,16.9,98,9
+Daman and Diu,22,18.6,60,21
+Delhi,36,1.4,64,20
+Goa,54,4.2,92,19
+Gujarat,29,13.4,62,19
+Haryana,26,7.2,55,9
+Himachal Pradesh,28,5.1,96,18
+Jammu and Kashmir,26,5.9,78,6
+Jharkhand,28,6.5,84,15
+Karnataka,27,17,92,23
+Kerala,31,2.7,81,11
+Lakshadweep,21,14.2,97,10
+Madhya Pradesh,20,11.1,78,6
+Maharashtra,35,5.9,53,10
+Manipur,24,8.4,70,22
+Meghalaya,22,5.1,97,6
+Mizoram,31,9.5,44,22
+Nagaland,27,1.6,74,19
+Odisha,22,0.1,62,23
+Andaman and Nicobar Islands,20,12.6,68,6
+Andhra Pradesh,22,3.9,82,24
+Arunachal Pradesh,24,1.4,50,10
+Assam,34,7.9,57,5
+Bihar,33,1,68,19
+Chandigarh,22,17.7,51,14
+Chhattisgarh,20,0.6,48,23
+Dadra and Nagar Haveli,24,11.6,49,21
+Daman and Diu,33,8.8,97,9
+Delhi,26,13.4,83,8
+Goa,28,6.6,56,14
+Gujarat,34,3.1,77,21
+Haryana,34,19.6,46,14
+Himachal Pradesh,29,16.8,85,21
+Jammu and Kashmir,32,17.2,52,24
+Jharkhand,38,5,79,9
+Karnataka,26,0.8,81,6
+Kerala,36,6.1,48,10
+Lakshadweep,39,10.7,89,6
+Madhya Pradesh,23,6.5,66,17
+Maharashtra,24,16.6,97,15
+Manipur,26,5.4,41,15
+Meghalaya,32,19.3,44,20
+Mizoram,34,9.1,68,15
+Nagaland,30,16.8,76,23
+Odisha,23,3.9,77,19
+Andaman and Nicobar Islands,32,8.2,58,20
+Andhra Pradesh,26,14,47,15
+Arunachal Pradesh,38,2.8,87,20
+Assam,21,2.7,84,12
+Bihar,29,19.4,40,8
+Chandigarh,32,14.3,61,12
+Chhattisgarh,25,0.8,91,8
+Dadra and Nagar Haveli,31,8,56,7
+Daman and Diu,31,8.7,46,7
+Delhi,39,14.9,64,22
+Goa,30,5,84,23
+Gujarat,26,3.7,43,23
+Haryana,20,1.6,75,9
+Himachal Pradesh,20,8.6,45,22
+Jammu and Kashmir,39,13.8,99,14
+Jharkhand,32,1.2,70,10
+Karnataka,28,18.3,58,5
+Kerala,22,8.8,83,9
+Lakshadweep,26,4.8,93,13
+Madhya Pradesh,25,1.9,78,16
+Maharashtra,27,3.7,66,18
+Manipur,28,18.7,49,6
+Meghalaya,24,12.8,65,21
+Mizoram,20,10.3,58,18
+Nagaland,38,13.1,78,17
+Odisha,29,8.7,42,13
+Andaman and Nicobar Islands,31,14.6,84,19
+Andhra Pradesh,34,1,52,19
+Arunachal Pradesh,28,11.3,89,15
+Assam,39,3.2,67,20
+Bihar,36,2.4,97,21
+Chandigarh,36,6.8,59,8
+Chhattisgarh,39,1.8,67,5
+Dadra and Nagar Haveli,31,1.9,47,12
+Daman and Diu,26,6.2,80,21
+Delhi,21,19.6,78,7
+Goa,22,3.5,40,24
+Gujarat,36,0.3,42,19
+Haryana,24,15.3,52,19
+Himachal Pradesh,36,16.1,67,18
+Jammu and Kashmir,36,6.9,96,18
+Jharkhand,36,9.3,99,6
+Karnataka,21,13,88,17
+Kerala,21,1,64,18
+Lakshadweep,24,19,95,23
+Madhya Pradesh,20,17.7,72,11
+Maharashtra,20,5.2,77,7
+Manipur,38,0.3,92,19
+Meghalaya,21,18.7,45,18
+Mizoram,31,10,97,15
+Nagaland,25,10.8,83,19
+Odisha,23,13.7,84,17
+Andaman and Nicobar Islands,30,12.3,71,22
+Andhra Pradesh,36,18.9,84,10
+Arunachal Pradesh,25,18.9,86,7
+Assam,24,17.3,60,23
+Bihar,39,12.7,55,19
+Chandigarh,21,16,93,9
+Chhattisgarh,25,13.5,60,14
+Dadra and Nagar Haveli,30,11.5,50,11
+Daman and Diu,35,2.6,99,21
+Delhi,35,16.2,76,11
+Goa,20,16.4,75,16
+Gujarat,28,12.5,74,21
+Haryana,25,16.4,58,17
+Himachal Pradesh,35,13,59,24
+Jammu and Kashmir,45,4.1,28,16
+Jharkhand,39,5.5,57,14
+Karnataka,23,4.3,86,7
+Kerala,38,7.5,80,13
+

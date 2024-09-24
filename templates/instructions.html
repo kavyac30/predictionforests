@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instructions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('/static/image.png'); /* Update with your image path */
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .buttons {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        .buttons a {
+            margin: 0 10px;
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #4a90e2;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .buttons a:hover {
+            background-color: #357abd;
+        }
+    </style>
+</head>
+<body>
+    <div class="buttons">
+        <a href="/">Home</a>
+        <a href="/predict">Predict</a>
+    </div>
+    <div class="container">
+        <h1>Instructions</h1>
+        <p> Temperature > 30°F, Rain < 10 , Humidity > 70 ,Wind Speed > 15 <br> may indicate higher risk.</p>
+        <a href="/predict">Back to Prediction</a>
+    </div>
+</body>
+</html>

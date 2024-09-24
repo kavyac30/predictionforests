@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predict</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('/static/image3.jpg') no-repeat center center fixed;
+            background-size: 1600px 900px;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            position: relative;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .nav-buttons {
+            position: absolute;
+            top: 20px;
+            right: 10px;
+        }
+        .nav-buttons a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 15px;
+            font-size: 1.2em;
+            padding: 10px;
+            border: 2px solid #fff;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .nav-buttons a:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+        .instructions {
+            display: none;
+            margin-top: 20px;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            border-radius: 5px;
+        }
+        .instructions p {
+            margin: 10px 0;
+            font-size: 1em; /* Adjust as needed */
+        }
+        form label, form input {
+            display: block;
+            margin: 10px 0;
+        }
+        form input[type="submit"] {
+            background-color: #4a90e2;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            padding: 10px;
+            width: 100%;
+            font-size: 16px;
+        }
+        form input[type="submit"]:hover {
+            background-color: #357abd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Predict </h1>
+        </div>
+        <form action="/predict" method="post">
+            <label for="state">Choose your state:</label>
+            <select id="state" name="state">
+                <option >Andhra Pradesh</option>
+                <option >Arunachal Pradesh</option>
+                <option >Assam</option>
+                <option >Bihar</option>
+                <option >Chandigarh</option>
+                <option >Chhattisgarh</option>
+                <option > Delhi</option>
+                <option >Goa</option>
+                <option >Gujarat</option>
+                <option >Haryana</option>
+                <option >Himachal Pradesh</option>
+                <option >Jammu and Kashmir</option>
+                <option >Jharkhand</option>
+                <option >Karnataka</option>
+                <option >Kerala</option>
+                <option >Madhya Pradesh</option>
+                <option >Meghalaya</option>
+            </select>
+            <label for="temperature">Temperature:</label>
+            <input type="number" id="temperature" name="temperature" required><br>
+            <label for="rain">Rain:</label>
+            <input type="number" id="rain" name="rain" step="0.1" required><br>
+            <label for="humidity">humidity:</label>
+            <input type="number" id="humidity" name="humidity" step="0.1" required><br>
+            <label for="wind speed">Wind Speed:</label>
+            <input type="number" id="wind speed" name="wind speed" required><br>
+            <!--<label for="oxygen">oxygen:</label>
+            <input type="number" id="oxygen" name="oxygen" required><br>-->
+            <input type="submit" value="Submit">
+        </form>
+        <div class="instructions" id="instructions">
+            <p>Temperature > 30°F</p>
+            <p> Rain < 10 </p>
+            <p>Humidity < 70</p>
+            <p>Wind Speed > 15</p>
+            
+        </div>
+    </div>
+    <div class="nav-buttons">
+        <a href="/">Home</a>
+        <a href="#" onclick="toggleInstructions()">Instructions</a>
+    </div>
+    <script>
+        function toggleInstructions() {
+            var instructions = document.getElementById('instructions');
+            if (instructions.style.display === 'none' || instructions.style.display === '') {
+                instructions.style.display = 'block';
+            } else {
+                instructions.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
